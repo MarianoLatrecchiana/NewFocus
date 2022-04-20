@@ -1,6 +1,4 @@
-<img src="imagenes/Logocompacto">
-
-
+<img src="imagenes/Logocompacto.png">
 
 # NewFocus
 
