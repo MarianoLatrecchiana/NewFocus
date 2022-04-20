@@ -1,10 +1,11 @@
-<img src="imagenes/Logocompacto.png">
+<img src="Imagenes/logosinfondo.png" alt="">
+
 
 # NewFocus
 
-Mi proyecto trata de...
+Este proyecto está desarrollado para una agencia de relaciones públicas.
 
-## Demo
+## Link
 
 Prueba mi sitio entrando [Aqui](https://marianolatrecchiana.github.io/NewFocus/)
 
