@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;     
+ }
+ .html{
+     font-size: 62.5%;
+ }
+
+
+ a{
+     text-decoration: none;
+ }
+ #logo{
+     display: flex;
+     top:  0px;
+     left: 1150px;
+     width: 20rem;
+     position: relative;
+     filter: brightness(3)
+ }
+.navegador{
+    list-style: none;
+    text-align: center;  
+ }
+ .navegador li{
+    display:inline;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    filter: brightness(3);
+    text-decoration: none;
+    margin: 0 10px 0 0;
+}
+.navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #2d0130;
+    border: 1px solid #ccc;
+    text-decoration: none;
+ }
+ .navegador li a:hover{
+    background-color:rgb(50, 1, 35);
+    color: rgb(255, 255, 255);
+ }
+ 
+ .Grid{
+     display: grid;
+     grid-template-columns: 100%;
+     grid-template-rows: 20% 70% 10%;
+
+}
+
+ body{
+    background-image: url(../Imagenes/Fondorelojvioleta.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+ }
+
+ body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+ }
+
+ .logoInstagram{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 10px 10px 10px 10px;
+    width: 40px;
+    height: 40px;
+}
+.logoWhatsApp{
+    position: fixed;
+    bottom: 0px;
+    left: 1400px;
+    margin: 10px 10px 10px 10px;
+    width: 40px;
+    height: 40px;
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+ /*INDEX*/
+   
+  .gif{
+     display: grid;
+     justify-items: start;
+     position:absolute; 
+     width: 200px;
+     margin: 10px 10px 10px 10px;
+ }
+
+
+.titulo__Header{
+    position: absolute;
+    border: 5px solid whitesmoke;
+    top: 0%;
+    margin: 220px;
+    padding: 1%;
+    vertical-align: baseline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    line-height: 0.85em;
+    pointer-events: auto;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+/*NOSOTROS*/
+
+.Titulo__nosotros{
+    display: flex;
+    width: 80%;
+    padding-left: 30px;
+    padding-top: 20px;
+    justify-content: start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: whitesmoke;
+    position: relative;
+}
+.p1{
+    display: flex;
+    width: 60%;
+    font-style: normal;
+    padding-left: 30px;
+    margin: 5px 30px 0px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    color: whitesmoke;
+    position: relative;
+    justify-content: start;
+}
+.p2{
+    display: flex;
+    width: 60%;
+    font-style: normal;
+    padding: 10px 0px 180px 30px;
+    margin: 0px 30px 10px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    color: whitesmoke;
+    position: relative;
+    align-content: stretch;
+    justify-content: start;
+}
+
+
+/*EQUIPO*/
+.titulo__Equipo1{
+    display: flex;
+    width: 40%;
+    padding-left: 30px;
+    padding-top: 20px;
+    justify-content: start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: whitesmoke;
+    position: relative;
+}   
+
+.img__equipo{
+    width: 35%;
+    margin: 0 30px 10px 30px;
+    position: relative;
+   
+}
+.equipo__p1{
+    display: flex;
+    font-style: normal;
+    margin: 0px 0px 10px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    width: 74%;
+    color: whitesmoke;
+    position: relative;
+}
+.titulo__Equipo2{
+    display: flex;
+    width: 40%;
+    padding-left: 30px;
+    padding-top: 20px;
+    justify-content: start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: whitesmoke;
+    position: relative;
+}   
+
+.equipo__p2{
+    display: flex;
+    font-style: normal;
+    margin: 0px 0px 10px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    width: 74%;
+    padding-bottom: 250px;
+    color: whitesmoke;
+    position: relative;
+}
+
+
+/*SERVICIOS*/
+
+.titulo__Servicios{
+    display: flex;
+    width: 80%;
+    bottom: 50px;
+    padding: 0px 40px 10px 50px;
+    justify-content: start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: whitesmoke;
+    position: relative;
+}   
+.img__servicios{
+    width: 50px;
+    position: relative;
+    display: flexbox;
+    align-items: flex-start;
+    padding: 0px 0px 20px 10px;
+    bottom: 40px;
+    left: 100px;
+}
+.img__servicios2{
+    display: flex;
+    width: 50px;
+    position: relative;
+    align-items:flex-end;
+    padding: 0px 0px 0px 0px;
+    bottom: 630px;
+    left: 700px;
+}
+.servicios__p{
+    display: flex;
+    position: relative;
+    font-size: 30px;
+    color:white;
+    padding-left: 80px;
+    left: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.servicios__P2{
+    display: flex;
+    position: relative;
+    font-size: 30px;
+    color:white;
+    padding-left: 30px;
+    padding-top: 28px;
+    left: 50%;
+    bottom: 580px;
+    font-family: 'Montserrat', sans-serif;
+}   
+
+
+/*Clientes*/
+.titulo__Clientes{
+    display: flex;
+    width: 40%;
+    padding-left: 30px;
+    padding-top: 20px;
+    justify-content: start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: whitesmoke;
+    position: relative;
+}
+.LatreLogo{
+    max-width: 15%;
+    position: relative;
+    bottom: 300px;    
+    filter: brightness(2);
+    padding: 10px 10px 10px 30px;
+}
+.SouthLogo{
+    max-width: 50%;
+    position: relative;
+    filter: brightness(3);
+    right: 190px;
+    bottom: 135px;
+    padding: 10px 10px 10px 30px;
+}
+.TodollegaLogo{
+    max-width: 12%;
+    position: relative;
+    filter: brightness(1);
+    right: 950px;
+    bottom: 110px;
+}
+.ValtortaLogo{
+    max-width: 25%;
+    position: relative;
+    filter: brightness(2);
+    bottom: 350px;
+    left: 250px;
+}
+.KolortecLogo{
+    max-width: 12%;
+    position: relative;
+    bottom: 380px;
+    left: 230px;
+}
+.BonapetitLogo{
+    max-width: 10%;
+    position: relative;
+    filter: brightness(3);
+    bottom: 450px;
+    right: 100px;
+
+}
+.EcowoodyLogo{
+    max-width: 10%;
+    position: relative;
+    filter: brightness(2);
+    bottom: 230px;
+    right: 250px;
+}
+
+.AvicolaLogo{
+    max-width: 13%;
+    position: relative;
+    filter: brightness(3);
+    bottom: 200px;
+    right: 300px;
+}
+.HautLogo{
+    max-width: 11%;
+    position: relative;
+    filter: brightness(3); 
+    bottom: 230px;
+    right: 1050px;
+}
+/*CONTACTO*/
+
+.titulo__Contacto{
+    display: flex;
+    width: 95%;
+    padding-left: 30px;
+    padding-top: 10px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: whitesmoke;
+    position: relative;
+    bottom: 50px;
+}
+.titulo__Contacto2{
+    display: flex;
+    width: 100%;
+    padding: 0px 0px 10px 0px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    position: relative;
+}
+
+  
+  .contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 100px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+    position: relative;
+    bottom: 80px;
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #ab4493; 
+    border-color: #ab4493; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: #ab4493; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #ab4493;
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+
+  /*.hola{
+      transform: rotate() translate() scale() skew(1deg;30deg);
+      transform: scaley(2);
+      transition: transform 2s;
+
+disparadores hoover y focus;
+box-shadow: (5px, 5px,5px,5px) sombras
+p1:hover~personaje{
+    backgrownd...}
+    @keyframe mover{
+        0%
+        25%
+        50%
+        75%
+        100%
+    }
+animation-duratios: 3s
+animation-name: mover
+animation-interaction-count:infinite
+animation-timing-funcion
+https://animate.style/
+
+*/
+
