@@ -5,8 +5,7 @@
  .html{
      font-size: 62.5%;
  }
-
-
+ 
  a{
      text-decoration: none;
  }
@@ -18,6 +17,14 @@
      position: relative;
      filter: brightness(3)
  }
+ #logo2{
+    display: flex;
+    top:  0px;
+    left: 1150px;
+    width: 200px;
+    position: relative;
+    filter: brightness(3)
+}
 .navegador{
     list-style: none;
     text-align: center;  
@@ -33,8 +40,8 @@
     margin: 0 10px 0 0;
 }
 .navegador li a {
-    padding: 2px 7px 2px 7px;
-    color: #666;
+    padding: 2px 7px 0px 7px;
+    color: black;
     background-color: #2d0130;
     border: 1px solid #ccc;
     text-decoration: none;
@@ -45,9 +52,10 @@
  }
  
  .Grid{
-     display: grid;
-     grid-template-columns: 100%;
-     grid-template-rows: 20% 70% 10%;
+     grid-template-areas:   "Encabezado nav nav"
+                            "Principal Principal Principal"
+                            "Principal Principal Principal"
+                            "Footer Footer Footer";
 
 }
 
@@ -58,7 +66,7 @@
     background-attachment: fixed;
     background-size: cover;
     position: relative;
-    height: 100%;
+    height: 50%;
  }
 
  body::before{
@@ -68,8 +76,18 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.79);
  }
+
+@media (max-width: 760px){
+        .Grid{
+            grid-template-areas:"Encabezado nav"
+                                "Principal Principal"
+                                "Principal Principal"
+                                "Principal Principal"
+                                "Footer Footer";
+        }
+}
 
  .logoInstagram{
     position: fixed;
@@ -78,6 +96,7 @@
     margin: 10px 10px 10px 10px;
     width: 40px;
     height: 40px;
+    grid-area: Footer;
 }
 .logoWhatsApp{
     position: fixed;
@@ -86,36 +105,53 @@
     margin: 10px 10px 10px 10px;
     width: 40px;
     height: 40px;
+    grid-area: Footer;
 } 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 
  /*INDEX*/
-   
-  .gif{
-     display: grid;
-     justify-items: start;
-     position:absolute; 
-     width: 200px;
-     margin: 10px 10px 10px 10px;
+ #fondoIndex{
+    background-image: url(../Imagenes/fondohombre.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 1000px;     
  }
-
-
+ #fondoIndex::before{
+    content: '' ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.79);
+    
+ }
+ .gif{
+    display: grid;
+    justify-items: start;
+    position:absolute; 
+    width: 200px;
+    margin: 10px 10px 10px 10px;
+    grid-area: Encabezado;
+}
 .titulo__Header{
     position: absolute;
-    border: 5px solid whitesmoke;
-    top: 0%;
-    margin: 220px;
-    padding: 1%;
+    margin: 0px 0px 0px 0px;
+    padding: 200px 0px 0px 100px;
     vertical-align: baseline;
     font-family: 'Montserrat', sans-serif;
-    font-size: 80px;
+    font-size: 150px;
     font-style: normal;
     line-height: 0.85em;
     pointer-events: auto;
     color: whitesmoke;
     text-align: center;
+    grid-area: Principal;
 }
 
 
@@ -132,26 +168,26 @@
     font-weight: bold;
     color: whitesmoke;
     position: relative;
+    grid-area: Principal;
 }
 .p1{
     display: flex;
     width: 60%;
     font-style: normal;
     padding-left: 30px;
-    margin: 5px 30px 0px 5px;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     text-align: justify;
     color: whitesmoke;
     position: relative;
     justify-content: start;
+    grid-area: Principal;
 }
 .p2{
     display: flex;
     width: 60%;
     font-style: normal;
-    padding: 10px 0px 180px 30px;
-    margin: 0px 30px 10px 5px;
+    padding: 10px 0px 300px 30px;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     text-align: justify;
@@ -159,6 +195,7 @@
     position: relative;
     align-content: stretch;
     justify-content: start;
+    grid-area: Principal;
 }
 
 
@@ -174,13 +211,14 @@
     font-weight: bold;
     color: whitesmoke;
     position: relative;
+    grid-area: Principal;
 }   
 
 .img__equipo{
     width: 35%;
     margin: 0 30px 10px 30px;
     position: relative;
-   
+    grid-area: Principal;   
 }
 .equipo__p1{
     display: flex;
@@ -189,9 +227,10 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     text-align: justify;
-    width: 74%;
+    width: 80%;
     color: whitesmoke;
     position: relative;
+    grid-area: Principal;
 }
 .titulo__Equipo2{
     display: flex;
@@ -204,19 +243,21 @@
     font-weight: bold;
     color: whitesmoke;
     position: relative;
+    grid-area: Principal;
 }   
 
 .equipo__p2{
     display: flex;
     font-style: normal;
-    margin: 0px 0px 10px 30px;
+    margin: 0px 0px 0px 30px;
+    padding: 0px 0px 100px 0px;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     text-align: justify;
-    width: 74%;
-    padding-bottom: 250px;
+    width: 80%;
     color: whitesmoke;
     position: relative;
+    grid-area: Principal;
 }
 
 
@@ -233,6 +274,7 @@
     font-weight: bold;
     color: whitesmoke;
     position: relative;
+    grid-area: Principal;
 }   
 .img__servicios{
     width: 50px;
@@ -242,6 +284,7 @@
     padding: 0px 0px 20px 10px;
     bottom: 40px;
     left: 100px;
+    grid-area: Principal;
 }
 .img__servicios2{
     display: flex;
@@ -249,28 +292,33 @@
     position: relative;
     align-items:flex-end;
     padding: 0px 0px 0px 0px;
-    bottom: 630px;
+    bottom: 700px;
     left: 700px;
+    grid-area: Principal;
 }
 .servicios__p{
     display: flex;
+    width: 20%;
     position: relative;
     font-size: 30px;
     color:white;
     padding-left: 80px;
     left: 100px;
     font-family: 'Montserrat', sans-serif;
+    grid-area: Principal;
 }
 .servicios__P2{
     display: flex;
+    width: 20%;
     position: relative;
     font-size: 30px;
     color:white;
     padding-left: 30px;
     padding-top: 28px;
-    left: 50%;
-    bottom: 580px;
+    left: 750px;
+    bottom: 650px;
     font-family: 'Montserrat', sans-serif;
+    grid-area: Principal;
 }   
 
 
@@ -286,6 +334,7 @@
     font-weight: bold;
     color: whitesmoke;
     position: relative;
+    grid-area: Principal;
 }
 .LatreLogo{
     max-width: 15%;
@@ -293,6 +342,7 @@
     bottom: 300px;    
     filter: brightness(2);
     padding: 10px 10px 10px 30px;
+    grid-area: Principal;
 }
 .SouthLogo{
     max-width: 50%;
@@ -301,6 +351,7 @@
     right: 190px;
     bottom: 135px;
     padding: 10px 10px 10px 30px;
+    grid-area: Principal;
 }
 .TodollegaLogo{
     max-width: 12%;
@@ -308,6 +359,7 @@
     filter: brightness(1);
     right: 950px;
     bottom: 110px;
+    grid-area: Principal;
 }
 .ValtortaLogo{
     max-width: 25%;
@@ -315,12 +367,14 @@
     filter: brightness(2);
     bottom: 350px;
     left: 250px;
+    grid-area: Principal;
 }
 .KolortecLogo{
     max-width: 12%;
     position: relative;
     bottom: 380px;
     left: 230px;
+    grid-area: Principal;
 }
 .BonapetitLogo{
     max-width: 10%;
@@ -328,7 +382,7 @@
     filter: brightness(3);
     bottom: 450px;
     right: 100px;
-
+    grid-area: Principal;
 }
 .EcowoodyLogo{
     max-width: 10%;
@@ -336,6 +390,7 @@
     filter: brightness(2);
     bottom: 230px;
     right: 250px;
+    grid-area: Principal;
 }
 
 .AvicolaLogo{
@@ -343,7 +398,8 @@
     position: relative;
     filter: brightness(3);
     bottom: 200px;
-    right: 300px;
+    right: 300px; 
+    grid-area: Principal;
 }
 .HautLogo{
     max-width: 11%;
@@ -351,6 +407,7 @@
     filter: brightness(3); 
     bottom: 230px;
     right: 1050px;
+    grid-area: Principal;
 }
 /*CONTACTO*/
 
@@ -358,7 +415,7 @@
     display: flex;
     width: 95%;
     padding-left: 30px;
-    padding-top: 10px;
+    padding-top: 1px;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 65px;
@@ -366,6 +423,7 @@
     color: whitesmoke;
     position: relative;
     bottom: 50px;
+    grid-area: Principal;
 }
 .titulo__Contacto2{
     display: flex;
@@ -377,20 +435,18 @@
     font-weight: bold;
     color: whitesmoke;
     position: relative;
+    grid-area: Principal;
 }
-
-  
-  .contact_form{  
+ .contact_form{  
     width: 460px; 
-    height: auto;
-    margin: 80px auto;
+    margin: 100px 0px 0px 520px;
     border-radius: 10px;  
-    padding-top: 100px;
-    padding-bottom: 20px;  
+    padding: 50px 0px 20px 0px;  
     background-color: #fbfbfb; 
     padding-left: 30px; 
     position: relative;
     bottom: 80px;
+    grid-area: Principal;
   }
   
   
@@ -419,7 +475,7 @@
     margin-top: 10px;  
     padding-left: 10px;
     margin-bottom: 20px; 
-    padding-top: 15px; 
+    padding-top: 10px; 
   }
   
   
