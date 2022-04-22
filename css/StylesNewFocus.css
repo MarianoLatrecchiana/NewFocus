@@ -156,6 +156,25 @@
 
 
 /*NOSOTROS*/
+#fondoNosotros{
+    background-image: url(../Imagenes/FondoLentes1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 1000px;     
+ }
+ #fondoNosotros::before{
+    content: '' ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.79);
+    
+ }
 
 .Titulo__nosotros{
     display: flex;
@@ -200,6 +219,25 @@
 
 
 /*EQUIPO*/
+#fondoEquipo{
+    background-image: url(../Imagenes/FondoLentes2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 1800px;     
+ }
+ #fondoEquipo::before{
+    content: '' ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.79);
+    
+ }
 .titulo__Equipo1{
     display: flex;
     width: 40%;
@@ -262,6 +300,25 @@
 
 
 /*SERVICIOS*/
+#fondoServicios{
+    background-image: url(../Imagenes/FondoLentes4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 1800px;     
+ }
+ #fondoServicios::before{
+    content: '' ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.79);
+    
+ }
 
 .titulo__Servicios{
     display: flex;
@@ -323,6 +380,25 @@
 
 
 /*Clientes*/
+#fondoClientes{
+    background-image: url(../Imagenes/FondoLentes5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 1000px;     
+ }
+ #fondoClientes::before{
+    content: '' ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.79);
+    
+ }
 .titulo__Clientes{
     display: flex;
     width: 40%;
@@ -410,6 +486,25 @@
     grid-area: Principal;
 }
 /*CONTACTO*/
+#fondoContacto{
+    background-image: url(../Imagenes/FondoLentes3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 1500px;     
+ }
+ #fondoContacto::before{
+    content: '' ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.79);
+    
+ }
 
 .titulo__Contacto{
     display: flex;
@@ -441,7 +536,7 @@
     width: 460px; 
     margin: 100px 0px 0px 520px;
     border-radius: 10px;  
-    padding: 50px 0px 20px 0px;  
+    padding: 20px 10px 20px 10px;  
     background-color: #fbfbfb; 
     padding-left: 30px; 
     position: relative;
@@ -459,7 +554,7 @@
     border-width: 1px; 
     border-color: #ab4493; 
     margin-top: 10px;  
-    padding-left: 10px;
+    padding-left: 1 0px;
     margin-bottom: 20px; 
   }
   
