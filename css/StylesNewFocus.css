@@ -61,7 +61,6 @@
 
  body::before{
     position: relative;
-    
     top: 0;
     left: 0;
     right: 0;
@@ -294,49 +293,33 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 65px;
     font-weight: bold;
-    color: whitesmoke;
-    position: relative;
+    color: white;
+    filter: brightness(1);
 }   
 
 .img__servicios{
     width: 50px;
-    position: relative;
-    display: flexbox;
-    align-items: flex-start;
     padding: 0px 0px 20px 10px;
-    bottom: 40px;
-    left: 100px;
+    filter: brightness(1);
 }
 .img__servicios2{
-    display: flex;
     width: 50px;
-    position: relative;
-    align-items:flex-end;
     padding: 0px 0px 0px 0px;
-    bottom: 700px;
-    left: 700px;
+    filter: brightness(1);
 }
 .servicios__p{
-    display: flex;
-    width: 20%;
-    position: relative;
+    width: 100%;
     font-size: 30px;
     color:white;
-    padding-left: 80px;
-    left: 100px;
     font-family: 'Montserrat', sans-serif;
+    filter: brightness(1);
 }
 .servicios__P2{
-    display: flex;
-    width: 20%;
-    position: relative;
+    width: 100%;
     font-size: 30px;
     color:white;
-    padding-left: 30px;
-    padding-top: 28px;
-    left: 750px;
-    bottom: 650px;
     font-family: 'Montserrat', sans-serif;
+    filter: brightness(1);
 }   
 
 
