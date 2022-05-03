@@ -1,0 +1,25 @@
+.navegador{
+    list-style: none;
+    text-align: center;  
+    background-image: linear-gradient(to bottom, rgb(137, 73, 160), rgb(100, 6, 100));
+    li{
+        display:inline;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 20px;
+        filter: brightness(3);
+        text-decoration: none;
+        margin: 0 10px 0 0;
+        a{
+            padding: 0px 7px 0px 7px;
+            color: white;
+            text-decoration: none;
+            &:hover{
+                background-color:rgb(18, 3, 18);
+                color: rgb(255, 255, 255);
+            }
+        }
+
+    } 
+}

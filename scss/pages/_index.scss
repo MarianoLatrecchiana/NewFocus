@@ -1,0 +1,33 @@
+#fondoIndex{
+    background-image: url(../Imagenes/fondohombre.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 1000px;
+    &::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.79);
+    
+    }     
+
+ }
+ .titulo__Header{
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 30px;
+    vertical-align: baseline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150px;
+    font-style: normal;
+    line-height: 0.85em;
+    pointer-events: auto;
+    color: whitesmoke;
+    text-align: center;
+}
+    
