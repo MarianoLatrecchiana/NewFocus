@@ -3,20 +3,16 @@
 @import "pages/clientes";
 @import "pages/nosotros";
 @import "pages/equipo";
+@import "pages/servicios";
 
 @import 'utilities/variables';
-@import 'utilities/funciones';
 @import 'utilities/mixins';
 
-@import 'vendors/bootstrap';
 
 @import 'base/reset';
 @import 'base/tipografias';
 
 @import 'layout/navegacion';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/main';
 
 @import 'components/botones';
 @import 'components/jumbo';

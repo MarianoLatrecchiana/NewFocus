@@ -1,0 +1,58 @@
+#fondoServicios{
+    background-image: url(../Imagenes/FondoLentes4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;    
+     &:before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.90); 
+    }
+}
+      
+
+ .titulo__Servicios{
+    display: flex;
+    width: 100%;
+    bottom: 50px;
+    padding: 0px 40px 10px 50px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    filter: brightness(1);
+}   
+
+.img__servicios{
+    width: 20%;
+    height: 20%;
+    padding: 0px 0px 20px 10px;
+    filter: brightness(1);
+}
+.img__servicios2{
+    width: 20%;
+    height: 20%;
+    padding: 0px 0px 0px 0px;
+    filter: brightness(1);
+}
+.servicios__p{
+    width: 80%;
+    font-size: 30px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    filter: brightness(1);
+
+}
+.servicios__P2{
+    width: 80%;
+    font-size: 30px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    filter: brightness(1);
+}   

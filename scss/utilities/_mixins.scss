@@ -1,0 +1,17 @@
+/*definir el mixin*/
+
+@mixin formatter($ancho,$alto){
+    width: $ancho;
+    height: $alto;
+}
+/*usar el mixin*/
+
+img{
+    border-radius: 15px;
+    @include formatter(200px,150px);
+}
+@mixin textos($font-weight, $color, $font-family) {
+        font-weight: $font-weight;
+        color: $color;
+        font-family: $font-family;
+}

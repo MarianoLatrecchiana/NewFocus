@@ -1,0 +1,73 @@
+/*EQUIPO*/
+#fondoEquipo{
+    background-image: url(../Imagenes/FondoLentes2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 1800px;   
+      &:before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.79);
+        
+     }
+ }
+ .titulo__Equipo1{
+    display: flex;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 20px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: whitesmoke;
+    position: relative;
+}   
+
+.img__equipo{
+    width: 35%;
+    margin: 0 30px 10px 30px;
+    position: relative;
+}
+.equipo__p1{
+    display: flex;
+    font-style: normal;
+    margin: 0px 0px 10px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    width: 80%;
+    color: whitesmoke;
+    position: relative;
+}
+.titulo__Equipo2{
+    display: flex;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 20px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: whitesmoke;
+    position: relative;
+}   
+
+.equipo__p2{
+    display: flex;
+    font-style: normal;
+    margin: 0px 0px 0px 30px;
+    padding: 0px 0px 100px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    width: 80%;
+    color: whitesmoke;
+    position: relative;
+}

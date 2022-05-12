@@ -1,0 +1,82 @@
+#fondoClientes{
+    background-image: url(../../Imagenes/fondo7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 1000px;     
+    &::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.79);
+    
+    }
+ }.titulo__Clientes{
+    display: flex;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 20px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: whitesmoke;
+    position: relative;
+}
+.marcoClientes{
+    border: solid white;
+    margin: 50px 50px 50px 50px;
+    padding: 10px 10px 10px 10px;
+}
+.LatreLogo{
+    width: 350px;   
+    filter: brightness(2);
+    padding: 20px 20px 20px 20px;
+}
+.SouthLogo{
+    width: 800px;
+    filter: brightness(3);
+    padding: 20px 20px 20px 20px;
+}
+.TodollegaLogo{
+    width: 200px;
+    filter: brightness(1);
+    padding: 20px 20px 20px 20px;
+}
+.ValtortaLogo{
+    width: 200px;
+    filter: brightness(2);
+    padding: 20px 20px 20px 20px;
+}
+.KolortecLogo{
+    width: 200px;
+    filter: brightness(3); 
+    padding-left: 50px;
+    padding: 20px 20px 20px 20px;
+}
+.BonapetitLogo{
+    width: 200px;
+    filter: brightness(3);
+    padding: 20px 20px 20px 20px;
+}
+.EcowoodyLogo{
+    width: 200px;
+    filter: brightness(2);
+    padding: 20px 20px 20px 20px;
+}
+
+.AvicolaLogo{
+    width: 200px;
+    filter: brightness(3);
+    padding: 20px 20px 20px 20px;
+}
+.HautLogo{
+    width: 200px;
+    filter: brightness(3); 
+    padding-left: 50px;
+    padding: 20px 20px 20px 20px;
+}

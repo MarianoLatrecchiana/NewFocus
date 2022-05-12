@@ -1,18 +1,145 @@
-#fondoIndex {
-  background-image: url(../Imagenes/fondohombre.jpg);
+/*CONTACTO*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+#fondoContacto {
+  background-image: url(../Imagenes/FondoLentes3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  height: 1000px; }
-  #fondoIndex::before {
+  height: 1500px; }
+  #fondoContacto:before {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.79); }
+
+.titulo__Contacto {
+  display: flex;
+  width: 95%;
+  padding-left: 30px;
+  padding-top: 1px;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  color: whitesmoke;
+  position: relative;
+  bottom: 50px; }
+
+.titulo__Contacto2 {
+  display: flex;
+  width: 100%;
+  padding: 0px 0px 10px 0px;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+  position: relative; }
+
+.contact_form {
+  width: 460px;
+  margin: 100px 0px 0px 520px;
+  border-radius: 10px;
+  padding: 20px 10px 20px 10px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+  position: relative;
+  bottom: 80px; }
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  padding-left: 1 0px;
+  margin-bottom: 20px; }
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 10px; }
+
+label {
+  display: block;
+  float: center; }
+
+button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #ab4493;
+  border-color: #ab4493;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer; }
+
+button p {
+  color: #fff; }
+
+span {
+  color: #ab4493; }
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e; }
+
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: #ab4493; }
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e; }
+
+p {
+  font-size: 14px;
+  color: #0e0e0e; }
+
+::-webkit-input-placeholder {
+  color: #a8a8a8; }
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8; }
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848; }
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848; }
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 105%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: -5; }
 
 .titulo__Header {
   position: absolute;
@@ -26,3 +153,326 @@
   pointer-events: auto;
   color: whitesmoke;
   text-align: center; }
+
+#fondoClientes {
+  background-image: url(../../Imagenes/fondo7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  height: 1000px; }
+  #fondoClientes::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.79); }
+
+.titulo__Clientes {
+  display: flex;
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 20px;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  color: whitesmoke;
+  position: relative; }
+
+.marcoClientes {
+  border: solid white;
+  margin: 50px 50px 50px 50px;
+  padding: 10px 10px 10px 10px; }
+
+.LatreLogo {
+  width: 350px;
+  filter: brightness(2);
+  padding: 20px 20px 20px 20px; }
+
+.SouthLogo {
+  width: 800px;
+  filter: brightness(3);
+  padding: 20px 20px 20px 20px; }
+
+.TodollegaLogo {
+  width: 200px;
+  filter: brightness(1);
+  padding: 20px 20px 20px 20px; }
+
+.ValtortaLogo {
+  width: 200px;
+  filter: brightness(2);
+  padding: 20px 20px 20px 20px; }
+
+.KolortecLogo {
+  width: 200px;
+  filter: brightness(3);
+  padding-left: 50px;
+  padding: 20px 20px 20px 20px; }
+
+.BonapetitLogo {
+  width: 200px;
+  filter: brightness(3);
+  padding: 20px 20px 20px 20px; }
+
+.EcowoodyLogo {
+  width: 200px;
+  filter: brightness(2);
+  padding: 20px 20px 20px 20px; }
+
+.AvicolaLogo {
+  width: 200px;
+  filter: brightness(3);
+  padding: 20px 20px 20px 20px; }
+
+.HautLogo {
+  width: 200px;
+  filter: brightness(3);
+  padding-left: 50px;
+  padding: 20px 20px 20px 20px; }
+
+#fondoNosotros {
+  background-image: url(../Imagenes/FondoLentes1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  height: 1000px; }
+  #fondoNosotros::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.79); }
+
+.Titulo__nosotros {
+  display: flex;
+  width: 80%;
+  padding-left: 30px;
+  padding-top: 20px;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  color: whitesmoke;
+  position: relative; }
+
+.p1 {
+  display: flex;
+  width: 90%;
+  font-style: normal;
+  padding-left: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: justify;
+  color: whitesmoke;
+  position: relative;
+  justify-content: center; }
+
+.p2 {
+  display: flex;
+  width: 90%;
+  font-style: normal;
+  padding: 10px 0px 300px 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: justify;
+  color: whitesmoke;
+  position: relative;
+  align-content: stretch;
+  justify-content: center; }
+
+/*EQUIPO*/
+#fondoEquipo {
+  background-image: url(../Imagenes/FondoLentes2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  height: 1800px; }
+  #fondoEquipo:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.79); }
+
+.titulo__Equipo1 {
+  display: flex;
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 20px;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  color: whitesmoke;
+  position: relative; }
+
+.img__equipo {
+  width: 35%;
+  margin: 0 30px 10px 30px;
+  position: relative; }
+
+.equipo__p1 {
+  display: flex;
+  font-style: normal;
+  margin: 0px 0px 10px 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: justify;
+  width: 80%;
+  color: whitesmoke;
+  position: relative; }
+
+.titulo__Equipo2 {
+  display: flex;
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 20px;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  color: whitesmoke;
+  position: relative; }
+
+.equipo__p2 {
+  display: flex;
+  font-style: normal;
+  margin: 0px 0px 0px 30px;
+  padding: 0px 0px 100px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: justify;
+  width: 80%;
+  color: whitesmoke;
+  position: relative; }
+
+#fondoServicios {
+  background-image: url(../Imagenes/FondoLentes4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative; }
+  #fondoServicios:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9); }
+
+.titulo__Servicios {
+  display: flex;
+  width: 100%;
+  bottom: 50px;
+  padding: 0px 40px 10px 50px;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  color: white;
+  filter: brightness(1); }
+
+.img__servicios {
+  width: 20%;
+  height: 20%;
+  padding: 0px 0px 20px 10px;
+  filter: brightness(1); }
+
+.img__servicios2 {
+  width: 20%;
+  height: 20%;
+  padding: 0px 0px 0px 0px;
+  filter: brightness(1); }
+
+.servicios__p {
+  width: 80%;
+  font-size: 30px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  filter: brightness(1); }
+
+.servicios__P2 {
+  width: 80%;
+  font-size: 30px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  filter: brightness(1); }
+
+/*definir el mixin*/
+/*usar el mixin*/
+img {
+  border-radius: 15px;
+  width: 200px;
+  height: 150px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.html {
+  font-size: 62.5%; }
+
+.navegador {
+  list-style: none;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #8949a0, #640664); }
+  .navegador li {
+    display: inline;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    filter: brightness(3);
+    text-decoration: none;
+    margin: 0 10px 0 0; }
+    .navegador li a {
+      padding: 0px 7px 0px 7px;
+      color: white;
+      text-decoration: none; }
+      .navegador li a:hover {
+        background-color: #120312;
+        color: white; }
+
+.logoInstagram {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 10px 10px 10px 10px;
+  width: 40px;
+  height: 40px; }
+
+.logoWhatsApp {
+  position: fixed;
+  bottom: 0px;
+  left: 1400px;
+  margin: 10px 10px 10px 10px;
+  width: 40px;
+  height: 40px; }
+
+#logo {
+  display: flex;
+  top: 0px;
+  left: 0px;
+  width: 20rem;
+  position: relative;
+  filter: brightness(3); }
+
+#logo2 {
+  display: flex;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  position: relative;
+  filter: brightness(3); }

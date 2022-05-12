@@ -1,0 +1,55 @@
+#fondoNosotros{
+    background-image: url(../Imagenes/FondoLentes1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 1000px;  
+    &::before{
+    content: '' ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.79);
+    }   
+ }
+ .Titulo__nosotros{
+    display: flex;
+    width: 80%;
+    padding-left: 30px;
+    padding-top: 20px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: whitesmoke;
+    position: relative;
+}
+.p1{
+    display: flex;
+    width: 90%;
+    font-style: normal;
+    padding-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    color: whitesmoke;
+    position: relative;
+    justify-content: center;
+}
+.p2{
+    display: flex;
+    width: 90%;
+    font-style: normal;
+    padding: 10px 0px 300px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    color: whitesmoke;
+    position: relative;
+    align-content: stretch;
+    justify-content: center;
+}
