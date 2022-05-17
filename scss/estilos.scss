@@ -4,15 +4,9 @@
 @import "pages/nosotros";
 @import "pages/equipo";
 @import "pages/servicios";
-
-@import 'utilities/variables';
-@import 'utilities/mixins';
-
-
-@import 'base/reset';
-@import 'base/tipografias';
-
-@import 'layout/navegacion';
-
-@import 'components/botones';
-@import 'components/jumbo';
+@import "utilities/variables";
+@import "base/reset";
+@import "base/tipografias";
+@import "layout/navegacion";
+@import "components/botones";
+@import "components/jumbo";

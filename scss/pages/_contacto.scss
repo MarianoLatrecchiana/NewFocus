@@ -1,13 +1,14 @@
 /*CONTACTO*/
 #fondoContacto{
-    background-image: url(../Imagenes/FondoLentes3.jpg);
+    background-image: url(../Imagenes/fondo7.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
     height: 1500px;
-     &:before{  
+     &:before{ 
+        content: '';
         position: absolute;
         top: 0;
         left: 0;
@@ -21,14 +22,16 @@
     display: flex;
     width: 95%;
     padding-left: 30px;
-    padding-top: 1px;
+    padding-top: 0px;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 65px;
     font-weight: bold;
-    color: whitesmoke;
+    color: #50266B;
     position: relative;
     bottom: 50px;
+    margin-left: 60px;
+    margin-top: 70px;
 }
 .titulo__Contacto2{
     display: flex;
@@ -36,9 +39,9 @@
     padding: 0px 0px 10px 0px;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
-    color: whitesmoke;
+    color: #9F00AC;
     position: relative;
 }
 .contact_form{  
@@ -59,7 +62,7 @@
     border-radius: 5px;  
     border-style: solid; 
     border-width: 1px; 
-    border-color: #ab4493; 
+    border-color: #9F00AC; 
     margin-top: 10px;  
     padding-left: 1 0px;
     margin-bottom: 20px; 
@@ -72,7 +75,7 @@
     border-radius: 5px;  
     border-style: solid; 
     border-width: 1px; 
-    border-color: #ab4493; 
+    border-color: #9F00AC; 
     margin-top: 10px;  
     padding-left: 10px;
     margin-bottom: 20px; 
@@ -91,8 +94,8 @@
     margin-bottom: 20px; 
     margin-top: 10px;   
     text-transform: uppercase;
-    background-color: #ab4493; 
-    border-color: #ab4493; 
+    background-color: #9F00AC; 
+    border-color: #9F00AC; 
     border-style: solid; 
     border-radius: 10px;  
     width: 420px;   
@@ -104,7 +107,7 @@
   }  
   
   span{
-    color: #ab4493; 
+    color: #9F00AC; 
   }  
   
   .aviso{
@@ -116,7 +119,7 @@
     font-size: 39px;  
     text-align: letf; 
     padding-bottom: 20px; 
-    color: #ab4493;
+    color: #9F00AC;
   }  
   
   h3{
